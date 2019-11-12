@@ -1,0 +1,583 @@
+body{
+	margin:0 0 0 0;
+	cursor: default;
+	background-color:;
+}
+
+header{
+	background-color: ;
+	position: absolute;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	z-index: 2000;
+}
+
+#logo{
+	font-family: Khand;
+	font-weight: normal;
+	font-size: 28px;
+	top: 0px;
+	margin-left: 40px;
+	color: #737373;
+	text-decoration:none;
+	background-color: ;
+
+}
+		
+#intro-box{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+}
+
+#intro-top{
+	width: 100%;
+	height: 50%;
+	background-color: white;
+	z-index: 1000;
+	position: absolute;
+	
+
+}
+
+#intro-bottom{
+	width: 100%;
+	height: 50%;
+	background-color: white;
+	z-index: 1000;
+	top: 50%;
+	position: absolute;
+	
+}
+
+footer{
+	font-family:Roboto;
+	font-size:14px;
+	color: #737373;
+	bottom: 20px;
+	position: absolute;
+	background-color: ;
+	display: flex;
+	flex-direction: row;
+	margin-right: 40px;
+	width: 100%;
+	z-index: 2000;
+}
+
+#copyright{
+	width: 15%;
+	padding-left: 40px;
+	width: 100%;
+	background-color: ;
+}
+
+#intro-name{
+	position: absolute;
+  	left: 0;
+  	top: 47.5%;
+  	width: 100%;
+  	text-align: center;
+  	font-size: 32px;
+	font-family: Khand;
+	color: #737373;
+	z-index: 1100;
+	display: none;
+}
+
+#social{
+	width: 85%;
+	background-color: ;
+	padding-right: 40px;
+}
+
+#mail{
+	width: 20px;
+	background-color: ;
+	float: right;
+	margin-right: 0px;
+	cursor: pointer;
+}
+
+#behance{
+	width: 20px;
+	background-color: ;
+	color: #737373;
+	float: right;
+	margin-right: 20px;
+}
+
+.fadeIn{
+	display: none;
+}
+
+#contact{
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	margin:0px;
+	z-index: 1800;
+
+}
+
+#slideshow{
+	width: 100%;
+	height: 100%;
+	background-color: ;
+	position: absolute;			
+}
+		
+#contents{
+	width: 100%;
+	height: 100%;
+	background-color:  #f2f2f2;
+	position: absolute;
+}
+		
+				
+#box1{
+	width:100%;
+	height:100%;
+	background-color:;
+	position:absolute;
+	margin:0px;
+	background-image:  url("img/1.png");
+	background-repeat: no-repeat;
+	background-size: 100% ;
+}
+		
+#box2{
+	width:100%;
+	height:100%;
+	background-color:#f2f2f2;
+	position:absolute;
+	margin:0px;
+	background-image: url("img/2.png");
+	background-repeat: no-repeat;
+	background-size: 100% ;
+}
+		
+#box3{
+	width:100%;
+	height:100%;
+	background-color:#f2f2f2;
+	position:absolute;
+	margin:0px;
+	background-image: url("img/3.png");
+	background-repeat: no-repeat;
+	background-size: 100% ;
+}
+		
+#box4{
+	width:100%;
+	height:100%;
+	background-color:#f2f2f2;
+	position:absolute;
+	margin:0px;
+	background-image: url("img/4.png");
+	background-repeat: no-repeat;
+	background-size: 100% ;
+}
+		
+#box5{
+	width:100%;
+	height:100%;
+	background-color:#f2f2f2;
+	position:absolute;
+	margin:0px;
+	background-image: url("img/5.png");
+	background-repeat: no-repeat;
+	background-size: 100% ;
+}
+		
+#box6{
+	width:100%;
+	height:100%;
+	background-color:#f2f2f2;
+	position:absolute;
+	margin:0px;
+	background-image: url("img/6.png");
+	background-repeat: no-repeat;
+	background-size: 100% ;
+}
+		
+#box7{
+	width:100%;
+	height:100%;
+	background-color:#f2f2f2;
+	position:absolute;
+	margin:0px;
+	background-image: url("img/7.png");
+	background-repeat: no-repeat;
+	background-size: 100% ;
+}
+		
+#box8{
+	width:100%;
+	height:100%;
+	background-color:#f2f2f2;
+	position:absolute;
+	margin:0px;
+	background-image: url("img/8.png");
+	background-repeat: no-repeat;
+	background-size: 100% ;
+}
+		
+		
+		
+#arrows{
+	position: absolute;
+	top: 70px;	
+	width: 100%;
+	height: 84%;
+	background-color: ;
+}
+
+#right{
+	cursor: url("img/right.png"), url("img/ri.cur"), default;
+	width: 50%;
+	height: 84%;
+	background-color: ;
+	position: absolute;
+	right: 0px;
+}
+
+#left{
+	cursor: url("img/left.png"), url("img/le.cur"), default;
+	width: 50%;
+	height: 84%;
+	background-color: ;
+	position: absolute;
+}
+		
+.levo{
+	width: 0%;
+	height: 100%;
+	background-color:white;
+	position:absolute;
+	animation: levo 0.8s ease-in;
+	animation-delay: ;
+}
+
+@keyframes levo{
+	from{width: 50%;}
+	to{width:0%;}
+}
+
+
+.desno{
+	width: 0%;
+	height: 100%;
+	background-color:white;
+	right:0px;
+	position:absolute;
+	animation: desno 0.8s ease-in;
+	animation-delay: ;
+}
+
+@keyframes desno{
+	from{width: 50%;}
+	to{width:0%;}
+}
+
+#contact{
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	margin:0px;
+	z-index: 1800;
+	display: none;
+	animation: enter 1s;
+	background-image: url("img/9.png");
+	background-repeat: no-repeat;
+	background-size: 100% ;
+}
+
+@-webkit-keyframes enter{
+	from{height: 0%;}
+	to{height: 100%;}
+}
+
+.content{
+	width: 25%;
+	height: 70%;
+	background-color: ;
+	margin-top: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 800px;
+	
+}
+
+#x{
+	width: 25px;
+	height: 25px;
+	background-color: ;
+	position: absolute;
+	z-index: 1500;
+	color:black;
+	right: 30px;
+	top:30px;
+	cursor: pointer;
+}
+
+.box{
+	width: 100%;
+	height: 40px;
+	font-family: Roboto;
+	font-size: 20px; 
+	padding: 5px 0px;
+  	border: none;
+	border-bottom: 1px solid #d9d9d9;
+	outline: none;
+	color: #737373;
+	background-color:;
+	padding-top: 30px;
+	margin-bottom: 20px;
+
+}
+
+.name, .name1{
+	position: absolute;
+	background-color: ;
+	font-family: Roboto;
+	font-size: 20px; 
+	padding: 12px 0px;
+	color: #737373;
+	opacity: 0.3;
+	padding-top: 30px;
+	width: 30%;
+	height: 70px;
+}
+
+#text{
+	margin-top: 30px;
+	border-bottom: 1px solid #d9d9d9;
+	background-color: ;
+	resize: vertical;
+    overflow: auto;
+}
+
+textarea::-webkit-scrollbar { 
+    display: none; 
+    
+}
+
+button{
+	text-decoration: none;
+	border: none; 
+	font-family: Roboto;
+	font-size: 18px; 
+	padding: 13px 18px;
+/*	border-radius: 28px;*/
+	outline: none;
+	color: white;
+	background-color: black;
+	margin-top: 50px;
+	float: right;
+	cursor: pointer;
+}
+button:hover{
+	background-color: #4d4d4d;
+}
+
+.status{
+	font-family: Roboto;
+	font-size: 14px; 
+	color: #a6a6a6;
+}
+
+@media screen and (max-width: 1024px){
+	body{
+		background-color: #f2f2f2;
+	}
+
+	header{
+		background-color: ;
+		position: absolute;
+		z-index: 2000;
+		margin: 0px;
+		padding: 10px 0px 10px 0px;
+	}
+
+	#logo{
+		font-family: Khand;
+		font-weight: normal;
+		font-size: 20px;
+		margin: 0px 0px 0px 20px;
+		color: #737373;
+		text-decoration:none;
+		background-color: ;
+
+	}
+
+	#slideshow {
+		width:100%;
+		height: 80%;
+		top: 80px;
+	}
+
+	.levo{
+		background-color: #f2f2f2;
+	}
+
+	.desno{
+		background-color: #f2f2f2;
+	}
+
+	#arrows{
+		background-color: ;
+	}
+
+	#right{
+		cursor: none;
+		background-image: url(img/rg.png);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+  		background-position: right 280px;
+  		background-size: 35px;
+  		
+	}
+
+	#left{
+		cursor: none;
+		background-image: url(img/lf.png);
+		background-repeat: no-repeat;
+  		background-attachment: fixed;
+  		background-position: left 280px;
+  		background-size: 35px;
+  	
+	}
+
+	footer{
+		font-size: 13px;
+		bottom: 20px;
+		margin-right: 0px;
+	}
+
+	#social{
+		padding-right: 10px;
+		width: 25%;
+
+	}
+
+	#copyright{
+		padding-left: 20px;
+		padding-top: 4px;
+		width: 75%;
+	}
+	
+	#behance{
+		margin-right: 10px;
+	}
+
+	#intro-name{
+	  	font-size: 23px;
+	}
+
+	#contact{
+		z-index: 10000;
+		background-image: none;
+	}
+
+	.content{
+		width: 75%;
+		background-color: ;
+		margin-top: 50px;
+		padding-left: 0px;
+	}
+
+	#x{
+		width: 15px;
+		height: 15px;
+		right: 15px;
+		top:15px;
+		
+	}
+	
+	.name{
+		font-size: 18px; 
+	}
+
+	button{
+		font-size: 14px; 
+		margin-top: 0px;
+		padding: 10px 14px;
+	}
+	
+	.name1{
+		width: 40%;
+		height: 50px;
+		font-size: 18px;
+	}
+
+	.box{
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	#left{
+		background-position: left 240px;
+	}
+	#right{
+		background-position: right 240px;
+	}
+
+}
+
+@media screen and (max-width: 600px){
+	#left{
+		background-position: left 200px;
+	}
+	#right{
+		background-position: right 200px;
+	}
+}
+
+@media screen and (max-width: 450px){
+	#left{
+		background-position: left 160px;
+	}
+	#right{
+		background-position: right 160px;
+	}
+}
+
+@media screen and (max-width: 360px){
+	#left{
+		background-size: 25px;
+	}
+
+	#right{
+		background-size: 25px;
+	}
+	#left{
+		background-position: left 140px;
+	}
+	#right{
+		background-position: right 140px;
+	}
+
+	.content{
+		margin-top: 30px;
+	}
+
+	.name, .name1{
+		font-size: 15px;
+	}
+
+	.box{
+		height: 20px;
+	
+	}
+
+	.status{
+		font-size: 12px;
+	}
+}
+
+
+
