@@ -388,7 +388,7 @@ button:hover{
 	font-size: 14px; 
 	color: #a6a6a6;
 }
-
+/*
 @media screen and (min-width: 600px) and (max-width: 1024px){
 	body{
 		background-color: #f2f2f2;
@@ -517,7 +517,7 @@ button:hover{
 		font-size: 16px;
 	}
 }
-/*
+
 @media screen and (max-width: 800px){
 	#left{
 		background-position: left 240px;
@@ -576,7 +576,7 @@ button:hover{
 
 	.status{
 		font-size: 12px;
-	}
+	}/*
 }
 
 
