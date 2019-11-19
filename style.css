@@ -430,6 +430,7 @@ button:hover{
 		width: 60%;
 		background-color: ;
 		margin-top: 150px;
-		padding-left: 0px;
+		margin-right: auto;
+		margin-left: auto;
 	}
 }
