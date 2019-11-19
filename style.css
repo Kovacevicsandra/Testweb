@@ -378,7 +378,7 @@ button:hover{
 	font-size: 14px; 
 	color: #a6a6a6;
 }
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1024px){
 	body{
 		background-color: #f2f2f2;
 	}
@@ -414,7 +414,7 @@ button:hover{
 		background-color: ;
 		bottom: 0px;
 		padding: 5px;
-		
+		z-index: 1000;
 	}
 
 	#contact{
