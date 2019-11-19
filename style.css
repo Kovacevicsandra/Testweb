@@ -134,7 +134,7 @@ footer{
 	margin:0px;
 	background-image:  url("img/1.png");
 	background-repeat: no-repeat;
-	background-size: 100% ;
+	background-size: contain;
 }
 		
 #box2{
@@ -145,7 +145,7 @@ footer{
 	margin:0px;
 	background-image: url("img/2.png");
 	background-repeat: no-repeat;
-	background-size: 100% ;
+	background-size: contain;
 }
 		
 #box3{
@@ -156,7 +156,7 @@ footer{
 	margin:0px;
 	background-image: url("img/3.png");
 	background-repeat: no-repeat;
-	background-size: 100% ;
+	background-size: contain;
 }
 		
 #box4{
@@ -167,7 +167,7 @@ footer{
 	margin:0px;
 	background-image: url("img/4.png");
 	background-repeat: no-repeat;
-	background-size: 100% ;
+	background-size: contain;
 }
 		
 #box5{
@@ -178,7 +178,7 @@ footer{
 	margin:0px;
 	background-image: url("img/5.png");
 	background-repeat: no-repeat;
-	background-size: 100% ;
+	background-size: contain;
 }
 		
 #box6{
@@ -189,7 +189,7 @@ footer{
 	margin:0px;
 	background-image: url("img/6.png");
 	background-repeat: no-repeat;
-	background-size: 100% ;
+	background-size: contain;
 }
 		
 #box7{
@@ -200,7 +200,7 @@ footer{
 	margin:0px;
 	background-image: url("img/7.png");
 	background-repeat: no-repeat;
-	background-size: 100% ;
+	background-size: contain;
 }
 		
 #box8{
@@ -211,7 +211,7 @@ footer{
 	margin:0px;
 	background-image: url("img/8.png");
 	background-repeat: no-repeat;
-	background-size: 100% ;
+	background-size: contain;
 }
 		
 		
