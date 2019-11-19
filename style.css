@@ -111,16 +111,6 @@ footer{
 	display: none;
 }
 
-#contact{
-	background-color: white;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	margin:0px;
-	z-index: 1800;
-
-}
-
 #slideshow{
 	width: 100%;
 	height: 100%;
@@ -305,9 +295,9 @@ footer{
 	height: 70%;
 	background-color: ;
 	margin-top: 200px;
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: 800px;
+	/*margin-right: auto;*/
+	margin-left: 60vw;
+	/*padding-left: 800px;*/
 	
 }
 
