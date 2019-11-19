@@ -440,6 +440,10 @@ button:hover{
 		font-size: 20px;
 		margin-left: 20px;
 	}
+	
+	footer{
+		bottom: 10px;
+	}
 
 	#copyright{
 		padding-left: 10px;
@@ -448,6 +452,7 @@ button:hover{
 
 	#social{
 		padding-right: 20px;
+		padding-bottom: 2px;
 	}
 
 	.name, .name1{
