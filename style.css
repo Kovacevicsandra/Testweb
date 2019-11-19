@@ -395,7 +395,6 @@ button:hover{
 	}
 
 	header{
-		position: relative;
 		background-color:;
 		padding-bottom: 0px;
 		
@@ -405,14 +404,12 @@ button:hover{
 		width: 100vw;
 		height: 100vh;
 		background-color:;
-		position: relative;
 		display: flex;
 		align-items: center;
 	}
 			
 	#contents{
 		background-color: #f2f2f2;
-		position: relative;
 		height: 60vh;
 	}
 
@@ -420,11 +417,19 @@ button:hover{
 
 	footer{
 		background-color: ;
-		position: relative;
 		bottom: 0px;
 		padding: 5px;
 		
 	}
+
+	#contact{
+		background-image: none;
+	}
+
+	.content{
+		width: 60%;
+		background-color: ;
+		margin-top: 150px;
+		padding-left: 0px;
+	}
 }
-
-
