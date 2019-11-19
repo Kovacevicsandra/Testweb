@@ -424,13 +424,23 @@ button:hover{
 
 	#contact{
 		background-image: none;
+		width: 100vw;
+		height: 100vh;
 	}
 
 	.content{
-		width: 60%;
+		width: 60vw;
 		background-color: ;
 		margin-top: 150px;
 		margin-right: auto;
 		margin-left: auto;
+	}
+
+	.levo{
+		background-color: #f2f2f2;
+	}
+
+	.desno{
+		background-color: #f2f2f2;
 	}
 }
