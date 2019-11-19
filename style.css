@@ -389,6 +389,42 @@ button:hover{
 	color: #a6a6a6;
 }
 
+@media screen and (max-width: 1024px){
+	body{
+		background-color: #f2f2f2;
+	}
 
+	header{
+		position: relative;
+		background-color:;
+		padding-bottom: 0px;
+		
+	}
+	
+	#slideshow{
+		width: 100vw;
+		height: 100vh;
+		background-color:;
+		position: relative;
+		display: flex;
+		align-items: center;
+	}
+			
+	#contents{
+		background-color: #f2f2f2;
+		position: relative;
+		height: 60vh;
+	}
+
+
+
+	footer{
+		background-color: ;
+		position: relative;
+		bottom: 0px;
+		padding: 5px;
+		
+	}
+}
 
 
