@@ -116,7 +116,7 @@ $(document).ready(function() {
 				
 			$('.name1').click(function(){
 				$(this).css({'transform': 'translateY(-30px)', 'transition': 'transform 0.3s ease-in-out'});
-				$('#text').animate({height: '180px'},500);
+				$('#text').animate({height: '150px'},500);
 			})
 
 			
