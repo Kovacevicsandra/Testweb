@@ -434,3 +434,36 @@ button:hover{
 
 	
 }
+
+@media screen and (max-width: 800px){
+	#logo{
+		font-size: 20px;
+		margin-left: 20px;
+	}
+
+	#copyright{
+		padding-left: 10px;
+		font-size: 10px;
+	}
+
+	#social{
+		padding-right: 20px;
+	}
+
+	.name, .name1{
+		font-size: 16px;
+	}
+
+	.content{
+		margin-top: 100px;
+	}
+
+	button{
+		font-size: 16px;
+	}
+
+	#x{
+		width: 20px;
+		height: 20px;
+	}
+}
