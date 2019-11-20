@@ -135,6 +135,7 @@ footer{
 	background-image:  url("img/1.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-position: center center;
 }
 		
 #box2{
@@ -146,6 +147,7 @@ footer{
 	background-image: url("img/2.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-position: center center;
 }
 		
 #box3{
@@ -157,6 +159,7 @@ footer{
 	background-image: url("img/3.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-position: center center;
 }
 		
 #box4{
@@ -168,6 +171,7 @@ footer{
 	background-image: url("img/4.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-position: center center;
 }
 		
 #box5{
@@ -179,6 +183,7 @@ footer{
 	background-image: url("img/5.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-position: center center;
 }
 		
 #box6{
@@ -190,6 +195,7 @@ footer{
 	background-image: url("img/6.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-position: center center;
 }
 		
 #box7{
@@ -201,6 +207,7 @@ footer{
 	background-image: url("img/7.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-position: center center;
 }
 		
 #box8{
@@ -212,6 +219,7 @@ footer{
 	background-image: url("img/8.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-position: center center;
 }
 		
 		
