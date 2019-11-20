@@ -386,8 +386,13 @@ button:hover{
 
 	header{
 		background-color:;
-		padding-bottom: 0px;
 		
+		
+	}
+
+	#logo{
+		margin-left: 20px;
+		margin-top: 10px;
 	}
 	
 	#slideshow{
@@ -414,8 +419,16 @@ button:hover{
 	footer{
 		background-color: ;
 		bottom: 0px;
-	
 		z-index: 1000;
+	}
+
+	#copyright{
+		padding-left: 20px;
+	}
+
+	#social{
+		padding-right: 20px;
+		padding-bottom: 10px;
 	}
 
 	#contact{
@@ -433,6 +446,23 @@ button:hover{
 		margin-right: auto;
 	}
 
+	#right{
+		cursor: none;
+		background-image: url(img/rg.png);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+  		background-position: 99% center;
+  		background-size: 20px;
+	}
+
+	#left{
+		cursor: none;
+		background-image: url(img/lf.png);
+		background-repeat: no-repeat;
+  		background-attachment: fixed;
+  		background-position: 1% center;
+  		background-size: 20px;
+	}
 
 
 	
