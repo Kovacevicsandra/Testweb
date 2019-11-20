@@ -428,7 +428,7 @@ button:hover{
 
 	#social{
 		padding-right: 20px;
-	/*	padding-bottom: 10px;*/
+		padding-bottom: 10px;
 	}
 
 	#contact{
@@ -445,25 +445,5 @@ button:hover{
 		margin-left: auto;
 		margin-right: auto;
 	}
-/*
-	#right{
-		cursor: none;
-		background-image: url(img/rg.png);
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-  		background-position: 99% center;
-  		background-size: 20px;
-	}
-
-	#left{
-		cursor: none;
-		background-image: url(img/lf.png);
-		background-repeat: no-repeat;
-  		background-attachment: fixed;
-  		background-position: 1% center;
-  		background-size: 20px;
-	}*/
-
-
 	
 }
