@@ -379,7 +379,7 @@ button:hover{
 	color: #a6a6a6;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) and (orientation: landscape){
 	body{
 		background-color: #f2f2f2;
 	}
@@ -428,7 +428,7 @@ button:hover{
 
 	#social{
 		padding-right: 20px;
-		padding-bottom: 10px;
+	/*	padding-bottom: 10px;*/
 	}
 
 	#contact{
