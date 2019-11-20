@@ -387,3 +387,46 @@ button:hover{
 	color: #a6a6a6;
 }
 
+@media screen and (max-width: 1024px){
+	body{
+		background-color: #f2f2f2;
+	}
+
+	footer{		
+		z-index: 1000;
+	}
+
+	#contact{
+		z-index: 10000;
+		background-image: none;
+		width: 100vw;
+		height: 100vh;
+	}
+
+	.content{
+		width: 60vw;
+		background-color: ;
+		margin-top: 200px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#right{
+		cursor: none;
+		background-image: url(img/rg.png);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+  		background-position: 99% center;
+  		background-size: 20px;
+	}
+
+	#left{
+		cursor: none;
+		background-image: url(img/lf.png);
+		background-repeat: no-repeat;
+  		background-attachment: fixed;
+  		background-position: 1% center;
+  		background-size: 20px;
+	}	
+}
+
