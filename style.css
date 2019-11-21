@@ -444,11 +444,12 @@ button:hover{
 	
 	#social{
 		padding-right: 10px;
-		padding-bottom: 3px;
+		padding-bottom: 10px;
 	}
 
 	#copyright{
 		padding-left: 10px;
+		padding-top: 5px;
 	}
 
 	.content{
