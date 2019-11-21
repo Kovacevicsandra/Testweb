@@ -430,3 +430,57 @@ button:hover{
 	}	
 }
 
+@media screen and (max-width: 800px){
+	#logo{
+		font-size: 20px;
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+
+	footer{
+		font-size: 10px;
+	}
+	
+	#social{
+		padding-right: 10px;
+	}
+
+	#copyright{
+		padding-left: 10px;
+	}
+
+	.content{
+		margin-top: 60px;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+	.name, .name1{
+		font-size: 14px;
+		width: 60%;
+		margin-top: 0px;
+	}
+
+	#box{
+		padding: 0px;
+		margin: 0px;
+	}
+
+	button{
+		font-size: 16px;
+	}
+
+	#x{
+		width: 20px;
+		height: 20px;
+	}
+
+	#text{
+		margin-top: 0px;
+	}
+
+	.status{
+		font-size: 12px;
+	}
+}
