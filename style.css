@@ -71,7 +71,7 @@ footer{
 	width: 100%;
 	background-color: ;
 	display: flex;
-	align-items: end;
+	align-items: flex-end;
 }
 
 #intro-name{
