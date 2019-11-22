@@ -387,7 +387,7 @@ button:hover{
 	color: #a6a6a6;
 }
 
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 1200px){
 	body{
 		background-color: #f2f2f2;
 	}
