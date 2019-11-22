@@ -70,6 +70,8 @@ footer{
 	padding-left: 40px;
 	width: 100%;
 	background-color: ;
+	display: flex;
+	align-items: end;
 }
 
 #intro-name{
