@@ -398,21 +398,6 @@ button:hover{
 		z-index: 1000;
 	}
 
-	#contact{
-		z-index: 10000;
-		background-image: none;
-		width: 100vw;
-		height: 100vh;
-	}
-
-	.content{
-		width: 60vw;
-		background-color: ;
-		margin-top: 200px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
 	#right{
 		cursor: none;
 		background-image: url(img/rg.png);
@@ -434,8 +419,20 @@ button:hover{
 
 @media screen and (max-width: 1024px){
 	#contact{
+		z-index: 10000;
+		width: 100vw;
+		height: 100vh;
 		background-image: none;
 	}
+
+	.content{
+		width: 60vw;
+		background-color: ;
+		margin-top: 200px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
 }
 
 
