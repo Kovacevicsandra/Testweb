@@ -55,10 +55,12 @@ $(document).ready(function() {
 			})
 
 			$('#x').click(function(){
-				
 					$('#contact').fadeOut();
 					$('#mail').css('cursor', 'pointer');
-				
+					if($('.box').val('')){
+						$('.name').css({'transform': 'translateY(0px)', 'transition': 'transform 0.3s ease-in-out'});
+						$('.name1').css({'transform': 'translateY(0px)', 'transition': 'transform 0.3s ease-in-out'});
+					};
 			})
 
 
@@ -76,26 +78,21 @@ $(document).ready(function() {
 
 
 
-			$('.name').click(function(){
-				$(this).css({'transform': 'translateY(-30px)', 'transition': 'transform 0.3s ease-in-out'});
-			})
-
-
 			$('input[name=name]').blur(function(){
 				if(!$(this).val()){
-			    	$('.name').css({'transform': 'translateY(0px)', 'transition': 'transform 0.3s ease-in-out'});
+			    	$('#label1').css({'transform': 'translateY(0px)', 'transition': 'transform 0.3s ease-in-out'});
 			    }
 			});
 
 			$('input[name=email]').blur(function(){
 				if(!$(this).val()){
-			    	$('.name').css({'transform': 'translateY(0px)', 'transition': 'transform 0.3s ease-in-out'});
+			    	$('#label2').css({'transform': 'translateY(0px)', 'transition': 'transform 0.3s ease-in-out'});
 			    }
 			});
 
 			$('textarea[name=message]').blur(function(){
 				if(!$(this).val()){
-			    	$('.name1').css({'transform': 'translateY(0px)', 'transition': 'transform 0.3s ease-in-out'});
+			    	$('#label3').css({'transform': 'translateY(0px)', 'transition': 'transform 0.3s ease-in-out'});
 			    	$('#text').animate({height: '30px'},500);
 			    }
 			});
@@ -113,10 +110,14 @@ $(document).ready(function() {
 			$('#label3').click(function(){
 				$('textarea[name=message]').focus();
 			})
-				
+			
+			$('.name').click(function(){
+				$(this).css({'transform': 'translateY(-30px)', 'transition': 'transform 0.3s ease-in-out'});
+			})
+
 			$('.name1').click(function(){
 				$(this).css({'transform': 'translateY(-30px)', 'transition': 'transform 0.3s ease-in-out'});
-				$('#text').animate({height: '150px'},500);
+				$('#text').animate({height: '200px'},500);
 			})
 
 			
