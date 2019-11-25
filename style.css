@@ -498,6 +498,38 @@ button:hover{
 	.status{
 		font-size: 12px;
 	}	
+	
+	#box1{
+		background-image: url("img/1-1.png");
+	}
+
+	#box2{
+		background-image: url("img/2-2.png");
+	}
+
+	#box3{
+		background-image: url("img/3-3.png");
+	}
+
+	#box4{
+		background-image: url("img/4-4.png");
+	}
+
+	#box5{
+		background-image: url("img/5-5.png");
+	}
+
+	#box6{
+		background-image: url("img/6-6.png");
+	}
+
+	#box7{
+		background-image: url("img/7-7.png");
+	}
+
+	#box8{
+		background-image: url("img/8-8.png");
+	}
 }	
 
 
