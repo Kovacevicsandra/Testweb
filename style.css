@@ -501,8 +501,8 @@ button:hover{
 	
 	
 }	
-
-@media screen and (max-width: 540px){
+/*
+@media screen and (max-width: 480px){
 	#box1{
 		background-size: auto 60%;
 	}
@@ -535,5 +535,5 @@ button:hover{
 	#box8{
 		background-size: auto 60%;
 	}
-}
+}*/
 
