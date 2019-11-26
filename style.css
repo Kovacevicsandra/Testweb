@@ -500,35 +500,37 @@ button:hover{
 	}	
 	
 	#box1{
-		background-image: url("img/1-1.png");
+		background-size: auto 60%;
 	}
 
 	#box2{
-		background-image: url("img/2-2.png");
+		background-size: auto 48%;
 	}
 
 	#box3{
-		background-image: url("img/3-3.png");
+		background-size: auto 90%;
 	}
 
 	#box4{
-		background-image: url("img/4-4.png");
+		background-size: auto 49%;
 	}
 
 	#box5{
 		background-image: url("img/5-5.png");
+		background-size: auto 50%;
 	}
 
 	#box6{
-		background-image: url("img/6-6.png");
+		background-size: auto 60%;
 	}
 
 	#box7{
-		background-image: url("img/7-7.png");
+		background-size: auto 57%;
+		
 	}
 
 	#box8{
-		background-image: url("img/8-8.png");
+		background-size: auto 60%;
 	}
 }	
 
