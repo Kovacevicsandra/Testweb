@@ -448,6 +448,40 @@ button:hover{
 	textarea{
 		background-color: #f2f2f2;
 	}
+	
+	#box1{
+		background-size: auto 60%;
+	}
+
+	#box2{
+		background-size: auto 48%;
+	}
+
+	#box3{
+		background-size: auto 90%;
+	}
+
+	#box4{
+		background-size: auto 49%;
+	}
+
+	#box5{
+		background-image: url("img/5-5.png");
+		background-size: auto 50%;
+	}
+
+	#box6{
+		background-size: auto 60%;
+	}
+
+	#box7{
+		background-size: auto 57%;
+		
+	}
+
+	#box8{
+		background-size: auto 60%;
+	}
 }
 
 @media screen and (max-width: 768px){
@@ -499,39 +533,7 @@ button:hover{
 		font-size: 12px;
 	}	
 	
-	#box1{
-		background-size: auto 60%;
-	}
-
-	#box2{
-		background-size: auto 48%;
-	}
-
-	#box3{
-		background-size: auto 90%;
-	}
-
-	#box4{
-		background-size: auto 49%;
-	}
-
-	#box5{
-		background-image: url("img/5-5.png");
-		background-size: auto 50%;
-	}
-
-	#box6{
-		background-size: auto 60%;
-	}
-
-	#box7{
-		background-size: auto 57%;
-		
-	}
-
-	#box8{
-		background-size: auto 60%;
-	}
+	
 }	
 
 
